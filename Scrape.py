@@ -13,7 +13,7 @@ else:
 with open('Config.json') as f:
     config = json.load(f)
 
-Token = config.get('Token')
+Token = config.get('oken')
 Bot = config.get('Bot')
 intents = discord.Intents.all()
 intents.members = True
